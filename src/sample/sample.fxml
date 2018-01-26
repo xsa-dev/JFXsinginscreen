@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="39.0" layoutY="28.0" prefHeight="478.0" prefWidth="720.0" style="-fx-background-color: #fff; -fx-background-radius: 30px;">
+         <effect>
+            <DropShadow color="#5b5b5b" />
+         </effect>
+         <children>
+            <Label layoutX="309.0" layoutY="43.0" text="Sign in" textFill="#ee1212">
+               <font>
+                  <Font name="Microsoft JhengHei UI" size="32.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="225.0" layoutY="97.0" prefHeight="72.0" prefWidth="270.0" text="Hello there, start you app to manage you store" textAlignment="CENTER" textFill="#8a8a8a" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <JFXTextField focusColor="#ee1212" labelFloat="true" layoutX="229.0" layoutY="217.0" prefHeight="25.0" prefWidth="262.0" promptText="Username" unFocusColor="#e87a7a" />
+            <JFXPasswordField focusColor="#ee1212" labelFloat="true" layoutX="229.0" layoutY="270.0" prefHeight="25.0" prefWidth="262.0" promptText="Password" unFocusColor="#e87a7a" />
+            <JFXButton layoutX="304.0" layoutY="345.0" prefHeight="42.0" prefWidth="112.0" ripplerFill="WHITE" style="-fx-background-color: red; -fx-background-radius: 50px;" text="Get started" textFill="WHITE" textOverrun="LEADING_WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="365.0" layoutY="432.0" text="Create a new account" textAlignment="CENTER" />
+            <JFXButton layoutX="229.0" layoutY="432.0" text="Forgot password" textAlignment="CENTER" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
